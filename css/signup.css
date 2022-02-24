@@ -50,7 +50,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .Page .UpperCont .header {
@@ -62,7 +62,7 @@ body {
 }
 
 .Page .UpperCont .header .Image {
-  width: 250px;
+  width: 260px;
   padding-bottom: 15px;
 }
 
@@ -117,16 +117,14 @@ body {
 }
 
 .Page .UpperCont form .input .button {
-  height: 44px;
+  height: 55px;
   border: none;
 }
 
 .Page .UpperCont form .input #email {
-  width: 75%;
-  height: 50px;
+  width: 70%;
   background: #fdfcfb;
   font-family: AxiFormaLight;
-  letter-spacing: 1px;
   text-indent: 5%;
   text-align: center;
   font-size: 20px;
@@ -136,10 +134,10 @@ body {
 
 .Page .UpperCont form .input #submit {
   margin-top: 5px;
-  height: 50px;
   background: #4d4d4d;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 530;
+  font-size: 20px;
   color: inherit;
   cursor: pointer;
   padding-left: 15px;
@@ -158,8 +156,9 @@ body {
 
 .Page .footer {
   margin-top: 75px;
-  padding-bottom: 75px;
+  padding-bottom: 60px;
   width: 100%;
+  font-size: 15px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
