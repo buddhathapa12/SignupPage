@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ffb18a;
+  font-family: "Lato", sans-serif;
+  color: #fdfcfb;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@font-face {
+  font-family: AxiFormaBook;
+  src: url("../fonts/AxiForma-Book.OTF");
+}
+
+@font-face {
+  font-family: AxiFormaLight;
+  src: url("../fonts/AxiForma-Light.OTF");
+}
+
+@font-face {
+  font-family: AxiFormaMedium;
+  src: url("../fonts/AxiForma-Medium.OTF");
+}
+
+.Page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Page .UpperCont {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 20px;
+}
+
+.Page .UpperCont .header {
+  margin-top: 100px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 35px;
+}
+
+.Page .UpperCont .header .Image {
+  width: 250px;
+  padding-bottom: 15px;
+}
+
+.Page .UpperCont .header .Home {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-family: AxiFormaMedium;
+  color: #ffffff;
+}
+
+.Page .UpperCont .description {
+  margin-top: 75px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 20px;
+  line-height: 1.3em;
+  font-family: AxiFormaBook;
+}
+
+.Page .UpperCont form {
+  margin-top: 75px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Page .UpperCont form .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.Page .UpperCont form .input .button {
+  height: 44px;
+  border: none;
+}
+
+.Page .UpperCont form .input #email {
+  width: 75%;
+  height: 50px;
+  background: #fdfcfb;
+  font-family: AxiFormaLight;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.Page .UpperCont form .input #submit {
+  margin-top: 5px;
+  height: 50px;
+  background: #4d4d4d;
+  font-family: inherit;
+  font-weight: 500;
+  color: inherit;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.Page .UpperCont form .input #submit:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.Page .UpperCont form .input input:focus {
+  outline: none;
+}
+
+.Page .footer {
+  margin-top: 75px;
+  padding-bottom: 75px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.Page .footer .ContactLink {
+  color: #ffffff;
+}
+/*# sourceMappingURL=signup.css.map */
